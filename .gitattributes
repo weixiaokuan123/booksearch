@@ -1,0 +1,5 @@
+# 统一按 LF 存储；Windows 检出时文本文件用 CRLF，脚本仍按 LF 保证跨平台
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.png binary
